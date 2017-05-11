@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anjular JS 1.6.js</title>
+	<script src="assets/js/libs/angular/angular.min.js"></script>
+	<script src="assets/js/libs/angular/angular.route.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+<body>
+<div ng-app="myApp">
+
+<div style="margin-top: 50px;margin-left: 200px">
+<h4>
+<a href="#!/">Home</a>
+<a href="#!/contact">Contact</a>
+<a href="#!/showcontact">ContactList</a>
+</h4>
+</div>
+
+<div ng-view=""></div>
+</div>
+
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/services/contactService.js"></script>
+<script src="assets/js/controllers/defaultController.js"></script>
+<script src="assets/js/controllers/contactController.js"></script>
+
+</body> 
+</html>
